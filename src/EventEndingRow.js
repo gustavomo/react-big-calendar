@@ -33,7 +33,7 @@ class EventEndingRow extends React.Component {
 
       let gap = Math.max(0, left - lastEnd)
 
-      if (this.canRenderSlotEvent(left, span)) {
+      if (false) {
         let content = EventRowMixin.renderEvent(this.props, event)
 
         if (gap) {
